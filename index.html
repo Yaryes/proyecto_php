@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Php</title>
+</head>
+<body>
+<div class="container mt-5 text-center">
+    <form action="recursos/funciones/login.php" method="post">
+        <div class="card bg-dark text-white shadow-lg">
+            <div class="card-header h3">Inicio de Sesión</div>
+            <div class="card-boody">
+                <div class="form-group">
+                    <label for="rut">RUT:</label>
+                    <input required type="text" placeholder="Ingrese usuario" name="rut" id="rut">
+                </div>    
+                <div class="form-group">
+                    <label for="pass">CONTRASEÑA:</label>
+                    <input required type="password" placeholder="Ingrese contraseña"  name="pass" id="pass">
+                </div>
+                <input type="submit" value="Ingresar"  name="btn_login" >       
+            </div>
+        </div>
+    </form>
+</div>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
